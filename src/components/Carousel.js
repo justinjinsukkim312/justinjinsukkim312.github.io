@@ -18,7 +18,7 @@ class Carousel extends React.Component {
 					title: 'Musik',
 					subTitle: 'Spotify clone *currently under production*',
 					imgSrc: musik,
-					link: 'https://devgrub.com',
+					link: 'https://github.com/justinjinsukkim312/musik',
 					selected: false
 				},
 				{
@@ -32,9 +32,9 @@ class Carousel extends React.Component {
 				{
 					id: 2,
 					title: 'Connection',
-					subTitle: 'A social network for an purpose',
+					subTitle: 'A social network for any purpose',
 					imgSrc: connection,
-					link: 'https://github.com/garrettlove8/evverest',
+					link: 'https://github.com/justinjinsukkim312/connection',
 					selected: false
 				}
 			]
