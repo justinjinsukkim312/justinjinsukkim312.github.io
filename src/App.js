@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import NoMatch from './pages/NoMatch';
+
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -17,19 +19,19 @@ class App extends React.Component {
 			headerLinks: [
 				{ title: 'Home', path: '/' },
 				{ title: 'About', path: '/about' },
-				{ title: 'Contact', path: '/contact' }
+				{ title: 'Contact', path: '/contact' },
 			],
 			home: {
 				title: 'Original',
 				subTitle: 'Projects built from top to bottom.',
-				text: 'Checkout my projects below'
+				text: 'Checkout my projects below',
 			},
 			about: {
-				title: 'About Me'
+				title: 'About Me',
 			},
 			contact: {
-				title: "Let's Talk!"
-			}
+				title: "Let's Talk!",
+			},
 		};
 	}
 	render() {
@@ -65,13 +67,16 @@ class App extends React.Component {
 						)}
 					/>
 					<Route
+						exact
 						path="/about"
 						render={() => <AboutPage title={this.state.about.title} />}
 					/>
 					<Route
+						exact
 						path="/contact"
 						render={() => <ContactPage title={this.state.contact.title} />}
 					/>
+					<Route render={() => <NoMatch title={this.state.contact.title} />} />
 
 					<Footer />
 				</Container>

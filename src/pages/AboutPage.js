@@ -10,10 +10,11 @@ function AboutPage(props) {
 			<Content>
 				<p>
 					Hello, my name is Justin. I'm a full stack web developer with
-					experience in Javascript, jQuery, PHP, ExpressJS, GraphQL, ReactJS,
-					Redux, React Native, Jest, Enzyme, NodeJS, MongoDB, PostgreSQL, MySQL,
-					ChartJS, Git, Heroku, Firebase, Babel, ESLint, Webpack, Parcel,
-					Mapbox, LeafletJS, JSON Web Tokens and OAuth2.0.
+					experience in HTML5, CSS3, Javascript, Python, PHP, jQuery, Bootstrap,
+					Express.js, GraphQL, React.js, Redux, Jest, Enzyme, Node.js, Database
+					Theory, MongoDB, PostgreSQL, MySQL, Chart.js, Command Line, SSH, Git,
+					Heroku, Firebase, Babel, ESLint, Webpack, Parcel, Mapbox, Leaflet.js,
+					JSON Web Tokens and OAuth2.0.
 				</p>
 
 				<p>
@@ -22,8 +23,8 @@ function AboutPage(props) {
 				</p>
 
 				<p>
-					I'm constantly learning new things. currently those things include
-					gaining more experience with MongoDB, ExpressJS, ReactJS and NodeJS.
+					I'm currently trying to learn Python3 via The Complete Python
+					Developer 2020 - Zero To Mastery.
 				</p>
 
 				<p>
@@ -40,8 +41,8 @@ function AboutPage(props) {
 					Node JS.
 				</p>
 				<p>
-					My current project, Musik, is a Spotify clone application. You can
-					check it out{' '}
+					Another current project, Musik, is a Spotify clone application. You
+					can check it out{' '}
 					<a
 						href="https://github.com/justinjinsukkim312/musik"
 						target="_blank"
@@ -53,7 +54,7 @@ function AboutPage(props) {
 				</p>
 				<p>
 					When I'm not working, chances are you can see what I'm doing on my
-					instagram story. Cooking, eating, growing plants or playing with
+					Instagram story. Cooking, eating, growing plants or playing with
 					Traitorous Bailey (golden retriever).{' '}
 					<a
 						href="https://www.instagram.com/jinsuk312/"
