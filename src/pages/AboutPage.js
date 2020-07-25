@@ -18,38 +18,6 @@ function AboutPage(props) {
 				</p>
 
 				<p>
-					I have 4 years of experience in...
-					<ul>
-						<li>HTML</li>
-						<li>CSS/SASS/Bootstrap/MaterialUI</li>
-						<li>Javascript/NodeJS/NPM/jQuery</li>
-					</ul>
-					3 Years of experience in...
-					<ul>
-						<li>React/Redux</li>
-						<li>ExpressJS/GraphQL</li>
-						<li>MySQL/MongoDB/PostgreSQL</li>
-						<li>RESTful API/CRUD</li>
-						<li>AJAX</li>
-					</ul>
-					2 Years of experience in...
-					<ul>
-						<li>Jest/Enzyme/Mocha/Karma</li>
-						<li>Babel/ESLint/Webpack/Parcel</li>
-						<li>Heroku/Firebase/Netlify</li>
-						<li>JSON Web Tokens</li>
-						<li>OAuth2.0</li>
-						<li>Postman</li>
-					</ul>
-					1 Years of experience in...
-					<ul>
-						<li>PHP</li>
-						<li>Python3</li>
-						<li>Angular</li>
-					</ul>
-				</p>
-
-				<p>
 					My latest completed project, eCommerce, is a full stack application
 					that sells clothing via Stripe API. You can check it out{' '}
 					<a
@@ -86,6 +54,37 @@ function AboutPage(props) {
 						here
 					</a>
 					. It is built with PHP, MySQL, and Javascript.
+				</p>
+				<p>
+					I have 4 years of experience in...
+					<ul>
+						<li>HTML</li>
+						<li>CSS/SASS/Bootstrap/MaterialUI</li>
+						<li>Javascript/NodeJS/NPM/jQuery</li>
+					</ul>
+					3 Years of experience in...
+					<ul>
+						<li>React/Redux</li>
+						<li>ExpressJS/GraphQL</li>
+						<li>MySQL/MongoDB/PostgreSQL</li>
+						<li>RESTful API/CRUD</li>
+						<li>AJAX</li>
+					</ul>
+					2 Years of experience in...
+					<ul>
+						<li>Jest/Enzyme/Mocha/Karma</li>
+						<li>Babel/ESLint/Webpack/Parcel</li>
+						<li>Heroku/Firebase/Netlify</li>
+						<li>JSON Web Tokens</li>
+						<li>OAuth2.0</li>
+						<li>Postman</li>
+					</ul>
+					1 Years of experience in...
+					<ul>
+						<li>PHP</li>
+						<li>Python3</li>
+						<li>Angular</li>
+					</ul>
 				</p>
 				<p>
 					When I'm not working, chances are you can see what I'm doing on my
