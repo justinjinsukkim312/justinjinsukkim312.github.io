@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import musik from '../assets/images/musik.png';
+import crown from '../assets/images/crown.svg';
 import github from '../assets/images/github.jpg';
 import connection from '../assets/images/connection.png';
 import Container from 'react-bootstrap/Container';
@@ -15,11 +15,11 @@ class Carousel extends React.Component {
 			items: [
 				{
 					id: 0,
-					title: 'Musik',
-					subTitle: 'Spotify clone *currently under production*',
-					imgSrc: musik,
-					link: 'https://github.com/justinjinsukkim312/musik',
-					selected: false
+					title: 'eCommerce',
+					subTitle: 'Sell goods via Stripe API',
+					imgSrc: crown,
+					link: 'https://crwn-e-com.herokuapp.com/',
+					selected: false,
 				},
 				{
 					id: 1,
@@ -27,17 +27,17 @@ class Carousel extends React.Component {
 					subTitle: 'Github Page',
 					imgSrc: github,
 					link: 'https://github.com/justinjinsukkim312',
-					selected: false
+					selected: false,
 				},
 				{
 					id: 2,
 					title: 'Connection',
-					subTitle: 'A social network for any purpose',
+					subTitle: 'Basic social network application',
 					imgSrc: connection,
 					link: 'https://github.com/justinjinsukkim312/connection',
-					selected: false
-				}
-			]
+					selected: false,
+				},
+			],
 		};
 	}
 
@@ -46,23 +46,23 @@ class Carousel extends React.Component {
 
 		items[id].selected = items[id].selected ? false : true;
 
-		items.forEach(item => {
+		items.forEach((item) => {
 			if (item.id !== id) {
 				item.selected = false;
 			}
 		});
 
 		this.setState({
-			items
+			items,
 		});
 	};
 
-	makeItems = items => {
-		return items.map(item => {
+	makeItems = (items) => {
+		return items.map((item) => {
 			return (
 				<Card
 					item={item}
-					click={e => this.handleCardClick(item.id, e)}
+					click={(e) => this.handleCardClick(item.id, e)}
 					key={item.id}
 				/>
 			);

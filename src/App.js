@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import NoMatch from './pages/NoMatch';
+// import NoMatch from './pages/NoMatch';
 
 class App extends React.Component {
 	constructor(props) {
@@ -22,9 +22,9 @@ class App extends React.Component {
 				{ title: 'Contact', path: '/contact' },
 			],
 			home: {
-				title: 'Original',
-				subTitle: 'Projects built from top to bottom.',
-				text: 'Checkout my projects below',
+				title: '고수',
+				subTitle: 'A jack of all trades, a master of some.',
+				text: 'Tap on the images below',
 			},
 			about: {
 				title: 'About Me',
@@ -56,8 +56,8 @@ class App extends React.Component {
 						</Navbar.Collapse>
 					</Navbar>
 					<Route
-						path="/"
 						exact
+						path="/"
 						render={() => (
 							<HomePage
 								title={this.state.home.title}
@@ -76,7 +76,10 @@ class App extends React.Component {
 						path="/contact"
 						render={() => <ContactPage title={this.state.contact.title} />}
 					/>
-					<Route render={() => <NoMatch title={this.state.contact.title} />} />
+					{/* <Route
+						path="*"
+						render={() => <NoMatch title={this.state.contact.title} />}
+					/> */}
 
 					<Footer />
 				</Container>
